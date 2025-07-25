@@ -6,14 +6,14 @@ Verbella är en modern webbapp som gör det enkelt och roligt att hitta en språ
 Chatta och boka tider för samtal. Verbella är helt gratis att använda i sin grundversion och erbjuder en smidig användarupplevelse med smart matchningslogik och enkel kommunikation. Perfekt för dig som vill bli bättre på ett språk genom äkta samtal med riktiga människor.
 
 ## Frontend
-Built with React, using TypeScript and styled with Tailwind CSS, powered by Vite for fast development and builds.
+Built with React, using TypeScript, and styled with Tailwind CSS, powered by Vite for fast development and builds.
 
 ## Backend
-Spring Boot, REST API, JWT
+Spring Boot, REST API
 
 ### Arkitektur
 Clean Architecture + Microservices-lite (Modular Monolith).
 
 ## Databas & DevOps
-Firebase (Hosting, Realtime database, Auth), CI/CD, Docker
+Firebase (Hosting, Realtime database, Authentication), CI/CD, Docker
 
