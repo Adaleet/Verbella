@@ -1,9 +1,15 @@
-
+import { Routes, Route } from "react-router-dom";
+import LoginPage from "./pages/LoginPage";
+import SignupPage from "./pages/SignupPage";
+import LandingPage from "./pages/LandingPage";
+import TopNavBar from "./components/topNavBar";
 function App() {
   return (
-    <div>
-      <h1>Verbella App</h1>
-    </div>
+    <Routes>
+      <Route path="/login" element={<LoginPage />} />
+      <Route path="/signup" element={<SignupPage />} />
+      <Route path="/" element={<LandingPage />} />
+    </Routes>
   );
 }
 
